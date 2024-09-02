@@ -1,0 +1,62 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home{
+    background: linear-gradient(45deg ,  rgb(13, 13, 75) 70% , rgb(102, 13, 13));
+}
+.cont{
+    width: 600px;
+}
+.cont h2{
+    font-size: 50px;
+    color: #fff;
+}
+.cont h2 span{
+    color: rgb(145, 39, 39);
+    border-bottom: solid 3px #fff;
+}
+
+.cont textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    resize: none;
+    background: #403d84;
+}
+
+.end select{
+    width: 70%;
+    outline: 0;
+    border: 0;
+    height: 40px;
+    border-radius: 40px;
+    background: #403d84;
+    appearance: none;
+
+}
+.end button{
+    width: 28%;
+    outline: 0;
+    border: 0;
+    height: 40px;
+    border-radius: 40px;
+    background-color: brown;
+    color: #fff;
+}
+
+@media (max-width : 767px) {
+    .cont h2{
+        font-size: 40px;
+    }
+    .end select{
+        width: 60%;
+    }
+    
+}
